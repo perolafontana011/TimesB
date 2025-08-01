@@ -45,11 +45,11 @@ nav ul {
     flex-wrap: wrap;
     list-style: none;
     gap: 15px;
-    padding: 0 0px;
+    padding: 0 20px;
 }
 
 nav li {
-    padding: 8px 15px;
+    padding: 8px 10px;
     border-radius: 8px;
     transition: background 0.3s;
 }
