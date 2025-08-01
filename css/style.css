@@ -83,3 +83,42 @@ footer {
   padding: 15px 0;
   margin-top: 40px;
 }
+
+/* Estilo geral da barra de navegação */
+nav {
+  background-color: #024;
+  padding: 10px 0;
+}
+
+/* Lista de navegação */
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Espaçamento reduzido entre itens */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+}
+
+/* Itens da barra */
+nav li {
+  padding: 0; /* Remove espaço interno extra */
+}
+
+/* Links de navegação */
+nav a {
+  display: inline-block;
+  padding: 6px 10px; /* ⬇️ Padding mais compacto */
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #036;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito hover */
+nav a:hover {
+  background-color: #048;
+}
